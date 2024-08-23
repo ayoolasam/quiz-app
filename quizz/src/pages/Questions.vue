@@ -7,7 +7,7 @@
         <span>Name:Leye</span>
         <span>Email: oladipo@gmail.com</span>
       </div>
-      <div class="w-full h-[653px] flex items-center justify-center">
+      <div class="w-full container h-[653px] flex items-center justify-center">
         <div class="-[360px] h-[404px] flex flex-col gap-[40px]">
           <div class="w-full flex justify-between items-center">
             <span class="bg-pxr rounded-[4px] pt-2 pr-3 pb-2 pl-3">Back</span>
@@ -66,4 +66,13 @@ const Questions = ref([
 ]);
 </script>
 
-<style scoped></style>
+<style scoped>
+@media (max-width: 1410px){
+  .container{
+    display: flex;
+  height:540px;
+  width:100%;
+
+  gap:10px;
+  }
+}</style>
