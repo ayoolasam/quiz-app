@@ -32,4 +32,10 @@
   .case{
     
   }
+}
+@media (min-width:650px) {
+  .case{
+    width:100%;
+  }
+ 
 }</style>

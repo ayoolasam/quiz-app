@@ -7,8 +7,10 @@ import Questions from './pages/Questions.vue'
 </script>
 
 <template>
- <!-- <Login/> -->
-<Questions/>
+
+<RouterView/>
+
+
 </template>
 
 <style scoped>

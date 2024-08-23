@@ -1,4 +1,4 @@
-import AnsweredPage from "@/pages/AnsweredPage.vue";
+import Answered from "@/pages/AnsweredPage.vue";
 import Questions from "../pages/Questions.vue";
 import Login from "@/pages/Login.vue";
 import { createRouter, createWebHistory } from "vue-router";
@@ -18,9 +18,10 @@ const router = createRouter({
     },
     {
       path: "/answered",
-      name: "answered",
-      ccomponent:AnsweredPage,
+      name: "Answered",
+      component: Answered,
     },
+   
   ],
 });
 

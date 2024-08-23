@@ -8,9 +8,9 @@
         <span>Email: oladipo@gmail.com</span>
       </div>
 
-      <div>
+      <!-- <div>
         <img src="../assets/january.png" alt="logo" />
-      </div>
+      </div> -->
     </div>
   </Card>
 </template>
